@@ -3,7 +3,7 @@
 
 The following steps are performed in this notebook:
 - Defined business problem: to find which features in used cars are the most relevant in determining price, to help fine-tuning dealers' inventory
-- Loaded `vehicle.csv` and performed exploratory data analysis
+- Loaded `vehicles.csv` and performed exploratory data analysis
 - Narrowed down and cleaned data
 - Created a ridge regresion model and a LASSO regression model to predict car prices based on seleceted features
 - Chose the ridge regression model, with Train MSE of 0.3778 and Test MSE of 0.3742, at alpha = 100
